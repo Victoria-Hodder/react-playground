@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import SkipToContent from './SkipToContent';
+import App from './SkipToContent';
 import * as serviceWorker from './serviceWorker';
 
+//const welcome = <SkipToContent name="Jessica" />;
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,  
   document.getElementById('root')
 );
 
