@@ -4,7 +4,7 @@ function SkipToContent(props) {
     return <h1>Hello, {props.name}</h1>;
 }
 
-function App() {
+function Loop() {
     return (
         <div>
             <SkipToContent name="Sara" />      
@@ -14,4 +14,4 @@ function App() {
     );
   }
 
-export default App;
+export default Loop;

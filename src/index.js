@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import SkipToContent from './SkipToContent';
-import App from './SkipToContent';
+// import Loop from './SkipToContent';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 //const welcome = <SkipToContent name="Jessica" />;
 ReactDOM.render(
-  <App />,  
+    // <Loop />,  
+    <App />,
   document.getElementById('root')
 );
 
