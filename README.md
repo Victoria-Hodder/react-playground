@@ -1,3 +1,13 @@
+## About this project
+
+I have created this project to expand my knowledge of react
+
+## Resources Used
+
+Until now I have used ["ReactJS series for beginners"](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3) series by Codevolution.
+
+## Further information
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
