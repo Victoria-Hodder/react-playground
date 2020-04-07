@@ -6,4 +6,4 @@ import React from 'react'
 
 export const Greet = () =>  <h1>Hi Victoria</h1>
 
-// export default Greet;
+// export default Greet
