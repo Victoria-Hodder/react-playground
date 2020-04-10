@@ -12,7 +12,9 @@ class App extends Component {
     render () {
       return (
       <div className="App">
-        <Counter />
+        {/* <Counter /> */}
+        <Greet name="Natasha" heroName="Black Widow"/>
+        <Welcome name="Diana" heroName="Wonder Woman"/>
       </div>
     );
   }
