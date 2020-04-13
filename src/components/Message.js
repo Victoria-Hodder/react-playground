@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 
 class Message extends Component {
 
-    constructor () {
+    constructor() {
         super()
         this.state = {
-            message: 'Welcome visitor'
+            message: 'Welcome visitor' // This is a property
         }
     }
 
@@ -16,12 +16,12 @@ class Message extends Component {
     }
 
     render() {
-        return(
+        return (
             <div>
                 <h1> {this.state.message} </h1>
                 <button onClick={() => this.changeMessage()}> Subscribe </button>
             </div>
-        ) 
+        )
     }
 }
 
