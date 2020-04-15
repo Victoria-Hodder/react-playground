@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 class App extends Component {
     render () {
       return (
       <div className="App">
-        <EventBind />
+        <ParentComponent />
       </div>
     );
   }
