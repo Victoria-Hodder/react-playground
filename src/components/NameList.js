@@ -1,9 +1,29 @@
 import React from 'react'
 
 function NameList() {
-    const names = ['Diana', 'Natasha', 'Carol']
-    const NameList = names.map(name => <h2>{name}</h2>)
-    return <div>{NameList}</div>
+        const persons = [
+        { 
+            id: 1,
+            name: 'Diana',
+            age: 30,
+            skill: 'whip',
+        },
+        {
+            id: 2,
+            name: 'Natasha',
+            age: 30,
+            skill: 'thigh lock',
+        },
+        {
+            id: 3,
+            name: 'Carol',
+            age: 30,
+            skill: 'space',
+        }
+    ]
+
+    const personList = persons.map(person => (<Person person={person}/>))
+    return <div>{personList}</div>
 }
 
 
