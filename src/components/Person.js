@@ -1,5 +1,7 @@
 import React from 'react'
 
+// refactored code from NameList.js
+
 function Person({ person }) {
     return (
         <div>
